@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0px;
+        padding: 0px;
+      }
+      .parent-container {
+        position: absolute;
+        left: 20%;
+        top: 5%;
+        align-items: center;
+      }
+      .container {
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-direction: column;
+
+        background-color: rgba(250, 243, 243, 0.967);
+        box-shadow: 3px 3px 10px ;
+      }
+      .content {
+        display: flex;
+        gap: 50px;
+        margin: 40px;
+      }
+      .content-box {
+        background-color: white;
+
+        width: 200px;
+        height: 250px;
+        box-shadow: 5px 5px 5px lightblue inset;
+
+        border-radius: 15px;
+        background-color: white;
+      }
+      h1 {
+        margin: 20px;
+        text-align: center;
+      }
+      p {
+        margin: 0px;
+        text-align: center;
+      }
+      .content-logo {
+        object-fit: cover;
+        width: 75px;
+        margin: 0;
+        margin-left: 7px;
+        /* margin-left: 10px; */
+        margin-top: 20px;
+        height: 50px;
+      }
+      .content-logo2 {
+        /* object-fit: cover; */
+        width: 75px;
+        margin-left: 19px;
+
+        margin-top: 20px;
+        height: 50px;
+      }
+      .content-logo3 {
+        object-fit: cover;
+        width: 75px;
+        margin-left: 20px;
+
+        margin-top: 20px;
+        height: 45px;
+        
+      }
+      .inside-content {
+        margin-left: 27px;
+        margin-top: 10px;
+      }
+      .content-logo h3 {
+        display: inline;
+        color: yellow;
+      }
+      .rate {
+        padding: 0;
+
+        display: inline-block;
+      }
+      .month {
+        display: inline-block;
+      }
+      .btn {
+        text-align: center;
+        padding: 13px 20px;
+        margin: 10px;
+        border-radius: 20px;
+        font-weight: bold;
+        border: none;
+        margin-top: 20px;
+        cursor: pointer;
+      }
+      .main-btn {
+        text-align: center;
+        padding: 13px 20px;
+        border: 2px solid black;
+        color: white;
+        background-color: black;
+        border-radius: 20px;
+        font-weight: bold;
+
+        margin-bottom: 50px;
+      }
+      .btn:hover{
+       
+        color: white;
+        background-color: black;
+      }
+      .main-btn:hover{
+        color: black;
+        background-color: white;
+        cursor: pointer;
+        border: 2px solid purple;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent-container">
+      <div class="container">
+        <h1>
+          Get the most out of your mobile <br />
+          with the right subscription
+        </h1>
+        <p>
+          All devices come with free delivery or pickup as standard.See
+          information on <br />
+          available shopping options for your location.s
+        </p>
+        <div class="content">
+          <div class="content-box">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/2/29/Ny_ice-logo.jpg"
+              class="content-logo"
+              alt=""
+            />
+            <h4 class="inside-content">Ice Mobile 10GB</h4>
+            <h5 class="inside-content">Up to 100Mbit/s</h5>
+            <h3 class="inside-content rate">299, /-</h3>
+            <h5 class="month">month</h5>
+            <center><button class="btn">Add subscription</button></center>
+          </div>
+          <div class="content-box">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFAiXz67iZgr0hMxc5_3GRMOBMuSKQvEctqGGmQmPKaQ&s"
+              class="content-logo content-logo2"
+              alt=""
+            />
+            <h4 class="inside-content">Ice Mobile 10GB</h4>
+            <h5 class="inside-content">Up to 100Mbit/s</h5>
+            <h3 class="inside-content rate">299, /-</h3>
+            <h5 class="month">month</h5>
+            <center><button class="btn">Add subscription</button></center>
+          </div>
+          <div class="content-box">
+            <img
+              src="https://img.etimg.com/thumb/width-1200,height-900,imgsize-102159,resizemode-75,msid-56009516/news/company/corporate-trends/telenor-looks-to-sell-its-india-unit-to-idea-cellular.jpg"
+              class="content-logo content-logo3"
+              alt=""
+            />
+            <h4 class="inside-content">Ice Mobile 10GB</h4>
+            <h5 class="inside-content">Up to 100Mbit/s</h5>
+            <h3 class="inside-content rate">299, /-</h3>
+            <h5 class="month">month</h5>
+            <center><button class="btn">Add subscription</button></center>
+          </div>
+        </div>
+        <button class="main-btn">See All subscription</button>
+      </div>
+    </div>
+  </body>
+</html>
